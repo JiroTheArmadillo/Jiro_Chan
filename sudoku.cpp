@@ -18,9 +18,12 @@ void xuat(int box[9][9])
         {
             printf("%d ",box[hang][cot]);
         }
-
+        
+        
         printf("|");
         printf("\n");
+      
+
     }
 }
 
@@ -79,6 +82,16 @@ int main()
             }
         }
     }
+
+
+
+   
+   
+
+   
+
+   
+
     
     xoa(box,19);
     xuat(box);
