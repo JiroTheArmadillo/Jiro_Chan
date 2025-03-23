@@ -66,5 +66,7 @@ int main()
     int n , pos;
     scanf("%d%d",&n,&pos);
     getchar();
+    fgets()
+    
     
 }
