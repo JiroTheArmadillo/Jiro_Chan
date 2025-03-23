@@ -63,10 +63,12 @@ void ShowNum(int n,int pos, char *s)
 
 int main()
 {
+    char *str;
     int n , pos;
     scanf("%d%d",&n,&pos);
     getchar();
-    fgets()
+    fgets(str,100,stdin);
+    str[strlen(str)-1]='\0';
     
-    
+    ShowNum(n,pos,str);
 }
